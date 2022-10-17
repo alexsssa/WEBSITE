@@ -23,13 +23,9 @@ def secret_page():
 
 @app.route('/contents-page')
 def contents_page():
-    content_text = [
-        "https://getmdl.io/components/  -   Документация по Material Design by Google",
-        "http://flask.pocoo.org/docs/1.0/   -   Документация по Flask"
-    ]
     return render_template('contents-page.html' )
 
 if __name__ == '__main__':
-    #app.run(port=8081, host='127.0.0.1')
- port = int(os.environ.get("PORT", 5000))
- app.run(host='0.0.0.0', port=port)
+    app.run(port=8080, host='127.0.0.1')
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
