@@ -18,8 +18,6 @@ def secret_page():
         password = request.form.get('password')
         if password == 'qwerty':
             return render_template('contents-page.html')
-        else:
-            return render_template('main-page.html')
     return render_template('secret-page.html')
 
 @app.route('/contents-page')
