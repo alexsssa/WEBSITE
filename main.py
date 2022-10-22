@@ -22,7 +22,11 @@ def secret_page():
 
 @app.route('/contents-page')
 def contents_page():
-    return render_template('contents-page.html' )
+    return render_template('contents-page.html')
+
+@app.route('/developer-page')
+def developer_page():
+    return render_template('developer-page.html')
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
