@@ -28,6 +28,18 @@ def contents_page():
 def developer_page():
     return render_template('developer-page.html')
 
+@app.route('/swift-page')
+def swift_page():
+    return render_template('swift-page.html')
+
+@app.route('/sharp-page')
+def sharp_page():
+    return render_template('sharp-page.html')
+
+@app.route('/cplus-page')
+def cplus_page():
+    return render_template('cplus-page.html')
+
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
