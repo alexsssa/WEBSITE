@@ -40,6 +40,10 @@ def sharp_page():
 def cplus_page():
     return render_template('cplus-page.html')
 
+@app.route('/404-page')
+def error_page():
+    return render_template('404.html')
+
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)

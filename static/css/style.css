@@ -177,6 +177,13 @@ a {
     opacity: 1;
     top: 54.3%;
 }
+.text-404 {
+  font-family: Comfortaa;
+  font-weight: Regular;
+  font-size: 64px;
+  color: rgba(235, 106, 34, 0.85);
+  text-align: center;
+  opacity: 1;}
 
 /* КНОПКИ */
 .btn {
