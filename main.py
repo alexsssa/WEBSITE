@@ -40,6 +40,10 @@ def sharp_page():
 def cplus_page():
     return render_template('cplus-page.html')
 
+@app.route('/java-page')
+def java_page():
+    return render_template('java-page.html')
+
 @app.errorhandler(404)
 def not_found(error):
     return render_template('404_error.html')

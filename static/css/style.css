@@ -184,6 +184,16 @@ a {
   color: rgba(235, 106, 34, 0.85);
   text-align: center;
   opacity: 1;}
+.text-in-square {
+    width: 68%;
+    margin-left: 10%;
+    margin-top: 1%;
+    border: 2px solid black;
+    background: #e6e9f2;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 16px;
+}
 
 /* КНОПКИ */
 .btn {
