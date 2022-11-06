@@ -94,6 +94,10 @@ a {
     color: rgba(0,0,0,1);
     text-decoration: none;
 }
+.aintext {
+    text-decoration: none;
+    color: rgba(0,0,0,0.800000011920929);
+}
 
 /* ПОЗИЦИОНИРОВАНИЕ */
 #top {
@@ -137,7 +141,7 @@ a {
     color: rgba(0,0,0,1);
     font-family: Montserrat;
     font-size: 48px;
-    font-weight: Regulary;
+    font-weight: Regular;
     opacity: 1;
 }
 .text-2 {
