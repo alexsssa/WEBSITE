@@ -171,16 +171,6 @@ a {
   color: rgba(235, 106, 34, 0.85);
   text-align: center;
   opacity: 1;}
-.text-in-square {
-    width: 68%;
-    margin-left: 10%;
-    margin-top: 1%;
-    border: 2px solid black;
-    background: #e6e9f2;
-    text-align: center;
-    font-family: Comfortaa;
-    font-size: 16px;
-}
 
 /* КНОПКИ */
 .btn {
@@ -245,14 +235,6 @@ a {
     user-select: none;
 }
 
-/* ПОЛЕ ВВОДА ПАРОЛЯ НА СЕКРЕТНОЙ СТРАНИЦЕ */
-input[type=password] {
-  width: 10%;
-  line-height: 2;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 14px;
-}
 
 /* СПИСОК ДЛЯ ОГЛАВЛЕНИЯ */
 ol {
@@ -272,7 +254,6 @@ li {
     right: 0%;
     top: 0%;
     bottom: 0%;
-
     width: 250px;
     height: 250px;
     border-radius: 250px;
