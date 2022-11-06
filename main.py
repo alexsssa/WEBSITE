@@ -12,14 +12,6 @@ def index():
 def info_page():
     return render_template('info-page.html')
 
-@app.route('/secret-page', methods=['post', 'get'])
-def secret_page():
-    if request.method == 'POST':
-        password = request.form.get('password')
-        if password == 'qwerty':
-            return render_template('contents-page.html')
-    return render_template('secret-page.html')
-
 @app.route('/contents-page')
 def contents_page():
     return render_template('contents-page.html')
@@ -43,6 +35,14 @@ def cplus_page():
 @app.route('/java-page')
 def java_page():
     return render_template('java-page.html')
+
+@app.route('/python-page')
+def python_page():
+    return render_template('python-page.html')
+
+@app.route('/js-page')
+def js_page():
+    return render_template('js-page.html')
 
 @app.errorhandler(404)
 def not_found(error):
